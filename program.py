@@ -1,3 +1,9 @@
+import fileinput
+
+lines = []
+for line in fileinput.input():
+    lines.append(line)
+
 def crea_lista(tam):
     lista = []
     for i in range(0,tam):
