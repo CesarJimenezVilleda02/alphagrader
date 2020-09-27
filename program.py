@@ -20,6 +20,7 @@ def cuenta_impares(lista):
 
 opción = int(input())
 
+
 if (opción == 1):
     tamaño = int(input())
     print(crea_lista(tamaño))
